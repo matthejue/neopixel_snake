@@ -1,12 +1,12 @@
 #include <Adafruit_NeoPixel.h>
 #include <Wire.h>
 
-const uint8_t NUM_LEDS = 100;
+const uint8_t NUM_LEDS = 200;
 
 const uint8_t MAX_LIGHTNESS = 10;
 const uint8_t MINIMUM_LIGHTNESS_FACTOR_RATIO = 10;
 
-const uint8_t NUM_FOOD = 10;
+const uint8_t NUM_FOOD = NUM_LEDS / 5;
 const uint8_t MAX_SNAKE_LEN = NUM_FOOD;
 const uint16_t PERIOD_LENGTH = 100;
 
